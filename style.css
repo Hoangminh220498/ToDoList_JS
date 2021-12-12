@@ -1,0 +1,75 @@
+body {
+    background-image: url(cv.jpg);
+    color: #333;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+.container {
+    display: block;
+    width: 400px;
+    margin: 50px auto 0;
+    font-size: large;
+    font-weight: bolder;
+}
+h3 {
+    color: #333;
+    font-weight: 200px;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+label[for="new-content"] {
+    display: block;
+    margin: 0 0 20px;
+}
+input#new-content {
+    float: left;
+    width: 318px;
+}
+input, button {
+    outline: none;
+}
+button {
+    background: none;
+    font-size: 20px;
+    width: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    color: black;
+}
+input[type="text"] {
+    margin: 0;
+    font-size: 20px;
+    line-height: 40px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #888;
+}
+.delete:hover {
+    color: #cf2323;
+}
+.edit:hover {
+    color: greenyellow;
+}
+#btnAdd:hover {
+    color: blue;
+}
+#edit{
+    display: none;
+}
+.btn-success {
+    width: 100px;
+}
+input[name="day"] {
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
